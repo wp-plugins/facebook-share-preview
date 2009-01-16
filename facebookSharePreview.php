@@ -154,8 +154,11 @@ function fbsp_add_meta_to_post() {
 		
 		$audio_album  = get_post_meta($postID, 'audio_album', true);
 		
+		$image_src    = get_post_meta($postID, 'image_src', true);
+		$image_src    = ($image_src <> "")?$image_src:$image_src_opt_val;
+		
 		echo '<!-- Facebook Share Preview Plugin Start -->'."\n";
-		echo '<link rel="image_src" href="http://www.digitalpadin.com/wp-content/uploads/sandroPadin.jpg" />'."\n";
+		echo '<link rel="image_src" href="'.$image_src.'" />'."\n";
 		echo '<link rel="audio_src" href="'.$audio_src.'" />'."\n";
 		echo '<meta name="audio_type" content="audio/mpeg3" />'."\n";
 		echo '<meta name="audio_title" content="'.$audio_title.'" />'."\n";
