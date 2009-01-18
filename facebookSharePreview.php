@@ -2,14 +2,14 @@
 /**
  * @package facebook-share-preview
  * @author Sandro Padin
- * @version 0.4.3
+ * @version 0.4.4
  */
 /*
 Plugin Name: Facebook Share Preview
 Plugin URI: http://www.digitalpadin.com/
 Description: This plugin adds Facebook-specific meta tags to the header of a post. This allows you to share content, such as: video and audio, directly on Facebook.
 Author: Sandro Padin
-Version: 0.4.3
+Version: 0.4.4
 Author URI: http://www.digitalpadin.com/
 */
 /*  Copyright 2009  Sandro Padin  (email : sandro@digitalpadin.com)
