@@ -3,7 +3,11 @@ Contributors: spadin
 Tags: facebook, sharing, preview, audio
 Requires at least: 2.7
 Tested up to: 2.7
-Stable tag: 0.4.4
+Stable tag: 0.4.5
+
+The Facebook Share Preview Plugin adds the required meta-data to an audio post so Facebook can embed your audio directly onto their site.
+
+== Description ==
 
 The Facebook Share Preview Plugin adds the required meta-data to an audio post so Facebook can embed your audio directly onto their site.
 
@@ -11,10 +15,6 @@ Please rate this plugin if you download it, or leave a message in the forums if 
 
 Thanks,
 Sandro
-
-== Description ==
-
-The Facebook Share Preview Plugin adds the required meta-data to an audio post so Facebook can embed your audio directly onto their site.
 
 == Installation ==
 
